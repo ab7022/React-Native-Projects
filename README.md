@@ -1,4 +1,5 @@
-this repositart contains all my projects on react-native
+this repositary contains all my projects on react-native.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
