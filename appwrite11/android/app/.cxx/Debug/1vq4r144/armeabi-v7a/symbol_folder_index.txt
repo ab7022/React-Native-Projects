@@ -1,0 +1,1 @@
+/home/abdul/Desktop/appwrite11/android/app/build/intermediates/cxx/Debug/1vq4r144/obj/armeabi-v7a

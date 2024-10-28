@@ -1,0 +1,22 @@
+/home/abdul/Android/Sdk/cmake/3.22.1/bin/cmake \
+  "-H/home/abdul/Desktop/React Native Projects/appwrite11/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup" \
+  -DCMAKE_SYSTEM_NAME=Android \
+  -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+  -DCMAKE_SYSTEM_VERSION=24 \
+  -DANDROID_PLATFORM=android-24 \
+  -DANDROID_ABI=arm64-v8a \
+  -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+  -DANDROID_NDK=/home/abdul/Android/Sdk/ndk/26.1.10909125 \
+  -DCMAKE_ANDROID_NDK=/home/abdul/Android/Sdk/ndk/26.1.10909125 \
+  -DCMAKE_TOOLCHAIN_FILE=/home/abdul/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake \
+  -DCMAKE_MAKE_PROGRAM=/home/abdul/Android/Sdk/cmake/3.22.1/bin/ninja \
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/abdul/Desktop/React Native Projects/appwrite11/android/app/build/intermediates/cxx/Debug/2i10723b/obj/arm64-v8a" \
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/abdul/Desktop/React Native Projects/appwrite11/android/app/build/intermediates/cxx/Debug/2i10723b/obj/arm64-v8a" \
+  -DCMAKE_BUILD_TYPE=Debug \
+  "-DCMAKE_FIND_ROOT_PATH=/home/abdul/Desktop/React Native Projects/appwrite11/android/app/.cxx/Debug/2i10723b/prefab/arm64-v8a/prefab" \
+  "-B/home/abdul/Desktop/React Native Projects/appwrite11/android/app/.cxx/Debug/2i10723b/arm64-v8a" \
+  -GNinja \
+  "-DPROJECT_BUILD_DIR=/home/abdul/Desktop/React Native Projects/appwrite11/android/app/build" \
+  "-DREACT_ANDROID_DIR=/home/abdul/Desktop/React Native Projects/appwrite11/node_modules/react-native/ReactAndroid" \
+  -DANDROID_STL=c++_shared \
+  -DANDROID_USE_LEGACY_TOOLCHAIN_FILE=ON
